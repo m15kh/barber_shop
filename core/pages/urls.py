@@ -1,7 +1,8 @@
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from .views import HomePageView
+
+app_name = 'pages'
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',include('pages.urls')),
+    path("",HomePageView.as_view(), name='home')
 ]
