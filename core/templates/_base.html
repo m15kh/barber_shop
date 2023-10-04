@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <title>{% block title %}Bookstore{% endblock title %}</title>
     <header>
+        <a href="{% url 'pages:home' %}">home</a>
         
         {% if not  user.is_authenticated %}
             <a href="{% url 'login' %}">login</a>
+    </hr>
+            <a href="{% url 'accounts:signup' %}">sign up</a>
         {% else %}
             <a href="{% url 'logout' %}">log out </a>
         {% endif %}
