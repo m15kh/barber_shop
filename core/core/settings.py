@@ -26,7 +26,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+#redirect to home page after login and logout
+LOGIN_REDIRECT_URL = 'pages:home'
+LOGOUT_REDIRECT_URL = 'pages:home'
 # Application definition
 
 INSTALLED_APPS = [
@@ -38,8 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #local app
     'pages',
+    'accounts',
+
 
 ]
+
+AUTH_USER_MODEL = 'accounts.CustomUser'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
