@@ -1,6 +1,6 @@
 <div align='center'>
 
-<img src=https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/2020_02_barbers/barber_masthead.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80 alt="logo" width=600 height=350 />
+<img src=https://heygoldie.com/blog/wp-content/uploads/2021/12/barber-shop-decor-ideas.jpg alt="logo" width=600 height=350 />
 
 <h1>Barber Shop 's Appointment</h1>
 <p>this is project for barber's Appointment</p>
